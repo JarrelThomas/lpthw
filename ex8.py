@@ -1,5 +1,6 @@
-formatter = "{} {} {} {}"
+formatter = "{} {} {} {}" #create a formatter function with empty values
 
+# Next few print functions print diffrent variables that are inserted into the empty value cells
 print(formatter.format(1, 2, 3, 4))
 print(formatter.format("One", "Two", "Three", "Four"))
 print(formatter.format(True, False, False, True))
